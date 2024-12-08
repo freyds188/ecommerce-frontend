@@ -24,14 +24,14 @@ function App() {
     <>
       <Navbar bg="dark" variant="dark" expand="lg">
         <Container>
-          <Navbar.Brand href="/">E-Commerce Store</Navbar.Brand>
+          <Navbar.Brand href="/">E-Commerce Store!</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               {isAuthenticated ? (
                 <>
                   {user?.role === 'admin' ? (
-                    <Nav.Link href="/admin">Admin Dashboard</Nav.Link>
+                    <Nav.Link href="/admin">Admin Dashboard </Nav.Link>
                   ) : (
                     <>
                       <Nav.Link href="/">Products</Nav.Link>

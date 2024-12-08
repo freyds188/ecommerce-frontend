@@ -40,7 +40,7 @@ function CustomerProductList() {
 
   return (
     <div className="container mt-4">
-      <h2>Available Products</h2>
+      <h2>Available Products </h2>
       <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
         {products.map((product) => (
           <div key={product.id} className="col">

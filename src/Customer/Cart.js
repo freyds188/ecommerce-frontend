@@ -51,7 +51,7 @@ function Cart() {
 
   return (
     <Container className="mt-4">
-      <h2>Shopping Cart</h2>
+      <h2>Shopping Cart </h2>
       {cartItems.length === 0 ? (
         <p>Your cart is empty</p>
       ) : (

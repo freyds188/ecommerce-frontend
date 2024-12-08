@@ -30,7 +30,7 @@ function EditProduct({ product, showAlert, onUpdate }) {
   return (
     <Form onSubmit={handleSubmit}>
       <Form.Group className="mb-3">
-        <Form.Label>Description</Form.Label>
+        <Form.Label>Description </Form.Label>
         <Form.Control
           as="textarea"
           name="description"

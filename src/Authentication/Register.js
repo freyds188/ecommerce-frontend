@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Form, Button, Container, Card, Alert, Row, Col } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
+import './auth.css';
 
 function Register() {
   const [formData, setFormData] = useState({

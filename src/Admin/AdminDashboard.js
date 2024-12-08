@@ -23,7 +23,7 @@ function AdminDashboard() {
     <Container fluid className="mt-4">
       {alert && <Alert variant={alert.type}>{alert.message}</Alert>}
       
-      <h2 className="mb-4">Admin Dashboard</h2>
+      <h2 className="mb-4">Admin Dashboard </h2>
       <Tab.Container activeKey={activeTab} onSelect={setActiveTab}>
         <Nav variant="tabs" className="mb-3">
           <Nav.Item>

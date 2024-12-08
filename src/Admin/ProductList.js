@@ -57,7 +57,7 @@ function ProductList({ onEdit, showAlert }) {
           onChange={(e) => setSearch(e.target.value)}
         />
         <Form.Select value={sortBy} onChange={(e) => setSortBy(e.target.value)}>
-          <option value="price">Sort by Price</option>
+          <option value="price">Sort by Price </option>
           <option value="category">Sort by Category</option>
           <option value="stock">Sort by Stock</option>
         </Form.Select>

@@ -66,7 +66,7 @@ function AddProduct({ showAlert }) {
       </Form.Group>
 
       <Form.Group className="mb-3">
-        <Form.Label>Quantity</Form.Label>
+        <Form.Label>Quantity </Form.Label>
         <Form.Control
           type="number"
           name="quantity"

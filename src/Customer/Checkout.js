@@ -53,7 +53,7 @@ function Checkout() {
   if (cartItems.length === 0) {
     return (
       <Container className="mt-4">
-        <h2>Checkout</h2>
+        <h2>Checkout </h2>
         <p>Your cart is empty</p>
       </Container>
     );

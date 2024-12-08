@@ -6,6 +6,7 @@ import { BrowserRouter } from 'react-router-dom';  // Import BrowserRouter for r
 import store from './store/store';  // Import the store
 import App from './App';  // Your root component
 
+
 ReactDOM.render(
   <Provider store={store}>  {/* Wrap your App component in the Provider to connect Redux */}
     <BrowserRouter>  {/* Wrap your App in BrowserRouter for React Router */}
